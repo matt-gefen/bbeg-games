@@ -1,5 +1,5 @@
 "use client";
-import { Button, Flex, Text } from "@radix-ui/themes";
+import { Flex, Text } from "@radix-ui/themes";
 import styles from "./index.module.css";
 
 export default function NavBar() {
