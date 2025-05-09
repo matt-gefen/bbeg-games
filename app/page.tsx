@@ -1,5 +1,4 @@
-import { Flex, Heading, Spinner, Text } from "@radix-ui/themes";
-import styles from "./page.module.css";
+import { Flex, Heading, Spinner } from "@radix-ui/themes";
 import { NavBar } from "./ui";
 
 export default function Home() {
@@ -17,7 +16,7 @@ export default function Home() {
             sm: "5",
           }}
         >
-          <Flex direction="column" align="center" className={styles.logo_font}>
+          <Flex direction="column" align="center">
             <Heading
               size={{
                 initial: "7",
@@ -25,18 +24,18 @@ export default function Home() {
               }}
               align="center"
             >
-              Big Bad Evil Guys
+              BIG BAD EVIL GUYS
             </Heading>
-            <Text
+            <Heading
               size={{
                 initial: "6",
                 sm: "8",
               }}
-              style={{ color: "var(--ruby-9)" }}
+              style={{ color: "var(--accent-9)", fontWeight:"normal" }}
               align="center"
             >
               Villainous Creator Collective
-            </Text>
+            </Heading>
           </Flex>
           <Flex direction="row" align="center" gap="4" p="5">
             <Spinner size="3" />

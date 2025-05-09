@@ -1,5 +1,11 @@
 import type { Metadata } from "next";
-import { Geist, Geist_Mono, Micro_5, Anonymous_Pro } from "next/font/google";
+import {
+  Geist,
+  Geist_Mono,
+  Micro_5,
+  Anonymous_Pro,
+  Tiny5,
+} from "next/font/google";
 import "@radix-ui/themes/styles.css";
 import "./globals.css";
 import { Theme } from "@radix-ui/themes";
@@ -17,14 +23,19 @@ const geistMono = Geist_Mono({
 const micro5 = Micro_5({
   variable: "--font-micro-5",
   subsets: ["latin"],
-  weight: "400"
-})
+  weight: "400",
+});
+const tiny5 = Tiny5({
+  variable: "--font-tiny-5",
+  subsets: ["latin"],
+  weight: "400",
+});
 
 const anonymousPro = Anonymous_Pro({
   variable: "--font-anonymous-pro",
   subsets: ["latin"],
-  weight: "400"
-})
+  weight: "400",
+});
 
 export const metadata: Metadata = {
   title: "bbeg.games",
@@ -38,7 +49,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`${geistSans.variable} ${geistMono.variable} ${micro5.variable} ${anonymousPro.variable}`}>
+      <body
+        className={`${geistSans.variable} ${geistMono.variable} ${micro5.variable} ${tiny5.variable}  ${anonymousPro.variable}`}
+      >
         <Theme appearance="dark" accentColor="ruby">
           {children}
         </Theme>
