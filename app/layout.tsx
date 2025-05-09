@@ -39,7 +39,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={`${geistSans.variable} ${geistMono.variable} ${micro5.variable} ${anonymousPro.variable}`}>
-        <Theme appearance="dark" accentColor="crimson">
+        <Theme appearance="dark" accentColor="ruby">
           {children}
         </Theme>
       </body>

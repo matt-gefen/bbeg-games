@@ -4,18 +4,27 @@ import { NavBar } from "./ui";
 
 export default function Home() {
   return (
-    <div className={styles.page}>
-      <main className={styles.main}>
+    <div>
+      <main>
         <NavBar />
-        <Flex direction="column" gap="9" align="center" justify="center" p="5">
+        <Flex
+          direction="column"
+          gap="9"
+          align="center"
+          justify="center"
+          p={{
+            initial: "2",
+            md: "5",
+          }}
+        >
           <Flex direction="column" align="center" className={styles.logo_font}>
-            <Heading size="9">Big Bad Evil Guys</Heading>
-            <Text size="8" color="crimson">
+            <Heading size="9" align="center">Big Bad Evil Guys</Heading>
+            <Text size="8" style={{ color: "var(--ruby-9)" }} align="center">
               Villainous Creator Collective
             </Text>
           </Flex>
           <Flex direction="row" align="center" gap="4" p="5">
-            <Spinner size="3"/>
+            <Spinner size="3" />
           </Flex>
         </Flex>
       </main>
