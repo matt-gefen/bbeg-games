@@ -14,12 +14,27 @@ export default function Home() {
           justify="center"
           p={{
             initial: "2",
-            md: "5",
+            sm: "5",
           }}
         >
           <Flex direction="column" align="center" className={styles.logo_font}>
-            <Heading size="9" align="center">Big Bad Evil Guys</Heading>
-            <Text size="8" style={{ color: "var(--ruby-9)" }} align="center">
+            <Heading
+              size={{
+                initial: "7",
+                sm: "9",
+              }}
+              align="center"
+            >
+              Big Bad Evil Guys
+            </Heading>
+            <Text
+              size={{
+                initial: "6",
+                sm: "8",
+              }}
+              style={{ color: "var(--ruby-9)" }}
+              align="center"
+            >
               Villainous Creator Collective
             </Text>
           </Flex>

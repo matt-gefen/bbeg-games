@@ -2,4 +2,45 @@
   --default-font-family: var(--font-anonymous-pro) !important;
   --heading-font-family: var(--font-micro-5) !important;
   --logo-color: #FF002C !important;
+
+  --letter-spacing-1: 0em;
+  --letter-spacing-2: 0em;
+  --letter-spacing-3: 0em;
+  --letter-spacing-4: 0em;
+  --letter-spacing-5: -0.01em;
+  --letter-spacing-6: -0.02em;
+  --letter-spacing-7: -0.02em;
+  --letter-spacing-8: -0.02em;
+  --letter-spacing-9: -0.02em;
+
+  --font-size-1: calc(12px * var(--scaling));
+  --font-size-2: calc(14px * var(--scaling));
+  --font-size-3: calc(16px * var(--scaling));
+  --font-size-4: calc(18px * var(--scaling));
+  --font-size-5: calc(24px * var(--scaling));
+  --font-size-6: calc(32px * var(--scaling));
+  --font-size-7: calc(40px * var(--scaling));
+  --font-size-8: calc(48px * var(--scaling));
+  --font-size-9: calc(72px * var(--scaling));
+
+  --line-height-1: calc(16px * var(--scaling));
+  --line-height-2: calc(20px * var(--scaling));
+  --line-height-3: calc(24px * var(--scaling));
+  --line-height-4: calc(26px * var(--scaling));
+  --line-height-5: calc(30px * var(--scaling));
+  --line-height-6: calc(38px * var(--scaling));
+  --line-height-7: calc(48px * var(--scaling));
+  --line-height-8: calc(56px * var(--scaling));
+  --line-height-9: calc(80px * var(--scaling));
+
+  --heading-line-height-1: calc(16px * var(--scaling));
+  --heading-line-height-2: calc(20px * var(--scaling));
+  --heading-line-height-3: calc(24px * var(--scaling));
+  --heading-line-height-4: calc(26px * var(--scaling));
+  --heading-line-height-5: calc(30px * var(--scaling));
+  --heading-line-height-6: calc(38px * var(--scaling));
+  --heading-line-height-7: calc(48px * var(--scaling));
+  --heading-line-height-8: calc(56px * var(--scaling));
+  --heading-line-height-9: calc(80px * var(--scaling));
+
 }
