@@ -5,16 +5,9 @@ import styles from "./index.module.css";
 export default function NavBar() {
   return (
     <Flex direction="row" gap="3" align="start" p="2">
-      <Button variant="ghost" asChild className={styles.logo}>
-        <Flex direction="row" gap="3" align="center">
-          <Text
-            size="7"
-            align="center"
-          >
-            BBEG
-          </Text>
-        </Flex>
-      </Button>
+      <Text size="8" align="center" className={styles.logo}>
+        BBEG
+      </Text>
     </Flex>
   );
 }

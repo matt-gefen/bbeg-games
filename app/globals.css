@@ -1,4 +1,5 @@
 .radix-themes {
   --default-font-family: var(--font-anonymous-pro) !important;
   --heading-font-family: var(--font-micro-5) !important;
+  --logo-color: #FF002C !important;
 }
