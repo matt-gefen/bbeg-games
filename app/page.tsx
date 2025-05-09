@@ -14,10 +14,7 @@ export default function Home() {
               Villainous Creator Collective
             </Text>
           </Flex>
-          <Flex direction="row" align="center" gap="4">
-            <Text size="7" color="crimson">
-              Hold for Content
-            </Text>
+          <Flex direction="row" align="center" gap="4" p="5">
             <Spinner size="3"/>
           </Flex>
         </Flex>
